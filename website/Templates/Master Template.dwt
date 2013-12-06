@@ -8,11 +8,12 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="Secondary Navigation" type="boolean" value="true" -->
 </head>
 
 <body>
 				
-	<table>
+	<table width="950">
         	<tr>
         		<td colspan="2"><a href="../index.html">Home</a> <a href="../about-me/index.html">About Me</a> <a href="../my-plan/index.html">My Plan</a> <a href="../news/index.html">News</a> <a href="../events/index.html">Events</a> <a href="../contact-me/index.html">Contact Me</a></td>
     		   </tr>
@@ -20,7 +21,7 @@
         		<td colspan="2"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
     		   </tr>
         	<tr>
-        		<td>[Secondary Navigation] </td>
+        		<td><!-- TemplateBeginIf cond="_document['Secondary Navigation']" -->[Secondary Navigation]<!-- TemplateEndIf --></td>
         		<td><!-- TemplateBeginEditable name="Content" -->[Content]<!-- TemplateEndEditable --></td>
     		   </tr>
     	</table>
