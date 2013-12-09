@@ -18,10 +18,28 @@
         		<td colspan="2"><a href="../index.html">Home</a> <a href="../about-me/index.html">About Me</a> <a href="../my-plan/index.html">My Plan</a> <a href="../news/index.html">News</a> <a href="../events/index.html">Events</a> <a href="../contact-me/index.html">Contact Me</a></td>
     		   </tr>
         	<tr>
-        		<td colspan="2"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
+        		<td height="52" colspan="2"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
     		   </tr>
         	<tr>
-        		<td><!-- TemplateBeginIf cond="_document['Secondary Navigation']" -->[Secondary Navigation]<!-- TemplateEndIf --></td>
+        		<td><!-- TemplateBeginIf cond="_document['Secondary Navigation']" --><!-- TemplateBeginEditable name="Secondary Navigation" -->
+        			<table>
+        				<tr>
+        					<td><a href="../my-plan/vision.html">Vision</a></td>
+    					</tr>
+        				<tr>
+        					<td><a href="../my-plan/reduce-govt.html">Reduce County Government</a></td>
+    					</tr>
+        				<tr>
+        					<td><a href="../my-plan/debt.html">Debt</a></td>
+    					</tr>
+        				<tr>
+        					<td><a href="../villains/lady-cassandra.html">Housing Settlement</a></td>
+    					</tr>
+        				<tr>
+        					<td><a href="../my-plan/benefits.html">Benefits</a></td>
+    					</tr>
+    				</table>
+        		<!-- TemplateEndEditable --><!-- TemplateEndIf --></td>
         		<td><!-- TemplateBeginEditable name="Content" -->[Content]<!-- TemplateEndEditable --></td>
     		   </tr>
     	</table>
